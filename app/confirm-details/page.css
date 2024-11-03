@@ -1,0 +1,17 @@
+.loader {
+  border-top-color: #3498db;
+  animation: spin 1s ease-in-out infinite;
+  width: 3rem; /* 48px */
+  height: 3rem; /* 48px */
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+  .loader {
+    width: 2rem; /* 32px */
+    height: 2rem; /* 32px */
+  }
+}
